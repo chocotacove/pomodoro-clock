@@ -1,0 +1,97 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+button{
+  background: #ced6e0;
+  color: #1e272e;
+  padding: 0.5rem 0.8rem;
+  border-radius: 10px;
+  box-shadow: 2px 2px 2px rgba(255, 255, 255, 0.2);
+  border: none;
+  outline: none;
+}
+button:active{
+  transform: scale(0.95);
+}
+h1{
+  text-align: center;
+  font-size: 3rem;
+}
+span{
+  margin: 0 1rem;
+}
+.btn-container{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 1rem;
+}
+.clock{
+  text-align: center;
+  font-size: 5rem;
+  padding: 1rem;
+  border-radius: 20px;
+  border: 1px solid white;
+  margin: 1rem;
+}
+p{
+  font-size: 1.2rem;
+  text-align: center;
+}
+.container{
+  width: 500px;
+  background: #1e272e;
+  color: white;
+  border-radius: 20px;
+  padding: 1rem;
+  box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.7)
+}
+.controls{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.controls button{
+  font-size: 1.2rem;
+  padding: 0.5rem 1.5rem;
+}
+.timer{
+  margin: 10px 0 0;
+  display: flex;
+  align-items: center;
+  justify-content: center; 
+}
+.timer-container{
+  border: 1px solid;
+  padding:5px 10px 10px;
+  border-radius: 10px;
+  margin: 10px;
+  text-align: center;
+  font-size: 2rem;
+}
+.timer-container span{
+  width: 50px;
+}
+@media (max-width: 800px){
+  button{
+    padding: 0.1rem 0.2rem;
+  }
+  h1{
+    font-size: 2rem;
+  }
+  .container{
+    width: 340px;
+  }
+  .controls button{
+    padding: 0.5rem 1rem;
+  }
+  .timer,.timer-container{
+    font-size: 1.2rem;
+  }
+  .timer-container span{
+  width: 30px;
+}
+}

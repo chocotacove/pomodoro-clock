@@ -3,7 +3,7 @@
 ![pomodoro clock](./assets/demo_main.gif)
 
 > A pomodoro clock app to make you more productive.
-> hosted project: https://chocotacove.github.io/pomodoro-clock
+> hosted project: https://vshalt.github.io/pomodoro-clock
 
 ---
 
@@ -36,12 +36,12 @@
 ---
 
 ## How To Use
-You can view the hosted project [here](https://chocotacove.github.io/pomodoro-clock) or https://chocotacove.github.io/pomodoro-clock
+You can view the hosted project [here](https://vshalt.github.io/pomodoro-clock) or https://vshalt.github.io/pomodoro-clock
 
 ---
 
 ## Installation
-- Clone the repository with `git clone https://github.com/chocotacove/pomodoro-clock` 
+- Clone the repository with `git clone https://github.com/vshalt/pomodoro-clock`
 - Then change directory into the newly cloned repository.
 - Run `npm install` to install the dependencies
 - Once the dependencies are installed run the project locally with `npm start`
